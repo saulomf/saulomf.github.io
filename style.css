@@ -93,6 +93,7 @@ a {
     margin-right: 18px;
 }
 
+
 .project-item {
     display: flex;
     flex-direction: row;
@@ -148,4 +149,71 @@ a {
     justify-content: center;
     gap: 4rem;
     margin-bottom: 1.5em;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        max-width: 80%;
+    }
+    .menu {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+    }
+    .header {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .header h1 {
+        font-size: 1.5rem;
+    }
+    .header h2 {
+        font-size: 1rem;
+    }
+    .section-title {
+        font-size: 1.5rem;
+    }
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-content p {
+        font-size: 1.2rem;
+        margin: 1em;
+    }
+    .about-image img {
+        width: 150px;
+        height: 150px;
+    }
+    .project-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 18px;
+    }
+    .project-image {
+        width: 200px;
+    }
+    .project-item p {
+        font-size: 1.2rem;
+        margin: 1em;
+        width: 200px;
+        text-align: center;
+    }
+    .project-item h2 {
+        font-size: 1.3rem;
+    }
+    .experience-item {
+        flex-direction: column;
+        text-align: center;
+        padding: 18px;
+    }
+    .dates {
+        justify-content: center;
+    }
+    .contato a {
+        width: 18px;
+    }
 }
