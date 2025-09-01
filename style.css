@@ -1,0 +1,151 @@
+:root {
+    --bg-black-900: #f2f2fc;
+    --bg-black-100: #fdf9ff;
+    --bg-black-50: #e8dfec;
+    --text-black-900: #302e4d;
+    --text-black-100: #504e70;
+}
+
+body {
+    background-color: #0f0f0f;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    padding: 24px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #282829;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.main-container {
+    padding: 1em 2em 0 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.header h1 {
+    color: #e0e0e0;
+}
+
+.header h2 {
+    color: #e0e0e0;
+}
+
+.menu {
+    display: flex;
+    gap: 32px;
+}
+
+.section {
+    border-radius: 18px;
+    background-color: #f2f2fc;
+    padding: 1em;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #22223b;
+    font-weight: 700;
+    text-align: center;
+    border-bottom: solid 2px #e0e0e0;
+    padding-bottom: 8px;
+}
+
+.about-content p {
+    color: #4a4e69;
+    font-size: 2rem;
+    line-height: 1.7;
+    margin-right: 18px;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 1.5em;
+    padding-bottom: 1.5em;
+    border-bottom: solid 2px #e0e0e0;
+}
+
+.project-item h2 {
+    text-align: center;
+    color: #4a4e69;
+    font-size: 36px;
+    line-height: 1.7;
+    margin-top: 8px;
+}
+
+.project-item p {
+    text-align: left;
+    color: #4a4e69;
+    font-size: 24px;
+    line-height: 1.7;
+    margin-top: 8px;
+    width: 400px;
+}
+
+.project-image {
+    width: 600px;
+}
+
+.experience-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 1.5em;
+    padding-bottom: 1.5em;
+    border-bottom: solid 2px #e0e0e0;
+}
+
+.dates {
+    display: flex;
+    color: #4a4e69;
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 1.5em;
+}
